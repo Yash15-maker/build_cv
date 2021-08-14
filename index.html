@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="content">
+        <div class="logo"><a href="#"><b>Build CV</b></a></div>
+        <ul class="menu-list">
+          <li><a href="#"><b>Create CV</b></a></li>
+          <li><a href="#"><b>Login</b></a></li>
+          <li><button style="height: 30px;width: 100px; border: none;background-color: aqua;">Login/Register</button></li>
+        </ul>
+      </div>
+    </nav>
+
+    <h1 style="margin-top: 40px; text-align: center">Add More Details</h1>
+  
+    <div class="title">
+      <div class="numbers" style="width: 50px">
+        1-
+        <h1>2</h1>
+        -3
+      </div>
+      <h2 style="margin-top: 35px; text-align: center">
+        Add Educational Details
+      </h2>
+    </div>
+
+    <div class="progress-container">
+      <div class="checkpoint1"></div>
+      <hr />
+      <div class="checkpoint"></div>
+      <hr />
+      <div class="checkpoint"></div>
+    </div>
+
+    <div style="margin-top: 40px"class="row">
+      <div class="col-75">
+        <div class="container">
+          <form action="/action_page.php">
+            <div class="row">
+              <div class="col-50">
+                <h3 style="margin-bottom: 20px">Resume</h3>
+                <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                <input
+                  type="text"
+                  id="fname"
+                  name="firstname"
+                  placeholder="John M. Doe"
+                />
+                <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                <input
+                  type="text"
+                  id="email"
+                  name="email"
+                  placeholder="john@example.com"
+                />
+                <label for="adr"
+                  ><i class="fa fa-address-card-o"></i> Address</label
+                >
+                <input
+                  type="text"
+                  id="adr"
+                  name="address"
+                  placeholder="542 W. 15th Street"
+                />
+                <label for="city"><i class="fa fa-institution"></i> City</label>
+                <input
+                  type="text"
+                  id="city"
+                  name="city"
+                  placeholder="New York"
+                />
+
+                <div class="row">
+                  <div class="col-50">
+                    <label for="state">State</label>
+                    <input
+                      type="text"
+                      id="state"
+                      name="state"
+                      placeholder="NY"
+                    />
+                  </div>
+                  <div class="col-50">
+                    <label for="zip">Zip</label>
+                    <input
+                      type="text"
+                      id="zip"
+                      name="zip"
+                      placeholder="10001"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-50">
+                <label id="language">Resume Language:</label>
+                <select name="lang" id="language">
+                  <option >English</option>
+                  <option >Portuguese</option>
+
+                  <option >Yoo</option>
+                  <option >Yaha</option>
+                </select>
+                <div class="icon-container">
+                  <h1><em>Optional</em></h1>
+                </div>
+                <label for="cname">Martial Status</label>
+                <input
+                  type="text"
+                  id="cname"
+                  name="cardname"
+                  placeholder="John More Doe"
+                />
+                <label for="ccnum">Place of Birth</label>
+                <input
+                  type="text"
+                  id="ccnum"
+                  name="cardnumber"
+                  placeholder="Eg..Gorakhpur"
+                />
+                <label for="gender">Gender</label>
+                 <select name="gender" style="width: 500px;height: 40px" >
+                        <option >Male</option>
+                        <option >Female</option>
+                        <option>Third</option>
+                      </select>
+
+                <div class="row">
+                  <div class="col-50">
+                    <label for="expyear"style="margin-top: 25px">Linkedin</label>
+                   <input type="text"
+                   id="text"
+                   placeholder="Eg.https://www.w3docs.com/tools/code-editor/231">
+
+                  </div>
+                  <div class="col-50">
+                    <label for="cvv" style="margin-top: 25px">Website/Portfolio</label>
+                    <input type="text" id="cvv" name="cvv" placeholder="eg.https://www.w3docs.com/tools/code-editor/231" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <label>
+              <input type="checkbox" checked="checked" name="sameadr" />
+              I agree all the terms & conditions
+            </label>
+            <input type="submit" value="Additional Innformation" class="btn" />
+          </form>
+        </div>
+      </div>
+
+
+    
+    </div>
+  </body>
+</html>
